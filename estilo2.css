@@ -137,6 +137,20 @@ ol{
     margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+  #simple {
+    grid-template-areas:
+      "main"
+      "aside";
+    grid-template-columns: 1fr;
+  }
+
+  main, aside {
+    margin-left: 0;
+  }
+}
+
+
 /*
 .roboto-<fon> fon{
   font-family: "Roboto", sans-serif;
