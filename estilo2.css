@@ -21,6 +21,7 @@
 
 h1 {
   color: #FFFFFF;
+  margin-bottom: 10px;
  
 }
 h2{
@@ -41,8 +42,8 @@ p{
     font-size: clamp(1rem, 1.2vw, 1.1rem);
     margin: 0 auto;
     max-width: 65ch;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 
 }
 body{
@@ -70,6 +71,15 @@ aside{
     min-height: 400px;
     padding-bottom: 10px;
     padding-left: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+
+}
+
+aside h3{
+    font-size: 1.2rem;
+
 }
 
 figure img{
@@ -85,22 +95,46 @@ figure img{
 }
 
 figure {
-    border: 1px solid black;
+    /*
+    border: 1px solid black; */
     text-align: center;
     display:block;
     object-fit: cover;
 }
 
+figcaption{
+    font-family: "Playpen Sans Deva", cursive;
+
+}
+
 
 ol li{
     max-width:65ch;
-    margin-left: 20px;
+    margin-left: 1rem;
+    /*
+    font-family: Arial, sans-serif;
+    */
+    font-family: "Playpen Sans Deva", cursive;
+    font-size: clamp(0.7rem, 1.0vw, 0.9rem);
+    
 }
 
 ul li{
     text-align: justify;
     font-size: small;
-    line-height: 1.5;
+    line-height: 1.2;
+    /*
+    font-family: Arial, sans-serif;
+    */
+    font-family: "Playpen Sans Deva", cursive;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: clamp(0.7rem, 0.5vw, 0.9rem);
+}
+
+ol{
+    margin-top: 1rem;
 }
 
 /*
