@@ -59,6 +59,9 @@ body{
     text-align: center;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
 
 }
 
