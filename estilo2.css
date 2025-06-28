@@ -50,6 +50,8 @@ body{
     margin: 10px;
     background: linear-gradient(to bottom, #000000, #004d00, #00ff00);
     text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 
 }
 
